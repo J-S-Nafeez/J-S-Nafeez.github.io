@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1 id="welcomeMsg"></h1>
+<script src="./script.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const name = sessionStorage.getItem('username');
+        if (name) {
+            document.getElementById('welcomeMsg').innerText = `Welcome, ${name}`;
+
+        } else {
+            document.getElementById('welcomeMsg').innerText = "No user found. Please login first.";
+        }
+    });
+</script>
+</body>
+</html>
