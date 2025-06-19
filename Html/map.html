@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Working Image Map Example</title>
+</head>
+<body>
+
+<h2>Click on the regions of the map:</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/World_map_-_low_resolution_gray_blue_blank.png/800px-World_map_-_low_resolution_gray_blue_blank.png" 
+     alt="World Map" usemap="#worldmap" width="800" height="400">
+
+<map name="worldmap">
+  <!-- North America (rectangle area) -->
+  <area shape="rect" coords="80,80,180,160" href="https://en.wikipedia.org/wiki/North_America" alt="North America" target="_blank">
+
+  <!-- Africa (circle area) -->
+  <area shape="circle" coords="430,220,40" href="https://en.wikipedia.org/wiki/Africa" alt="Africa" target="_blank">
+
+  <!-- Asia (polygon area) -->
+  <area shape="poly" coords="600,100,670,110,660,180,590,170" href="https://en.wikipedia.org/wiki/Asia" alt="Asia" target="_blank">
+</map>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* li{
+            display: inline;
+            width: 200px;
+        } */
+        li{
+            display: inline-block;
+            width: 200px;
+        }
+        .flex
+        {
+            display: flex;
+            /* by deafault flex direction is row */
+            /* flex-direction: column; */ 
+
+
+            justify-content: space-around;
+            background-color: yellow;
+            height: 200px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .grid
+        {
+            height: 300px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: burlywood;
+            row-gap: 50px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Flex and Grid </h1>
+    <ul >
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Serices</a></li>
+    </ul>
+    <h3>Flex Box</h3>
+    <div class="flex">
+        <div>Child1</div>
+        <div>Child2</div>
+        <div>Child3</div>
+        <div>Child4</div>
+        <div>Child5</div>
+        <div>Child6</div>
+    </div>
+    <h3>Grid Box</h3>
+    <div class="grid">
+        <div>Grid1</div>
+        <div>Grid2</div>
+        <div>Grid3</div>
+        <div>Grid4</div>
+        <div>Grid5</div>
+        <div>Grid6</div>
+    </div>
+
+</body>
+</html>
