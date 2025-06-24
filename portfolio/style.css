@@ -95,6 +95,39 @@ img.img:hover {
     
 }
 
+.projects
+{
+  margin-top: 50px;
+  background-color: red;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+.proj1
+{
+  background-color: yellow;
+  padding: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+.proj2
+{
+  background-color: rgb(181, 226, 97);
+  padding: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+.proj3
+{
+  background-color: rgb(179, 180, 211);
+  padding: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+
 .services
 {
     background-color: rgb(147, 221, 217);
@@ -103,8 +136,6 @@ img.img:hover {
     justify-content: center;
     gap: 50px;
     height: 400px;
-    margin-top: 50px;
-
 }
 .Fend
 {
@@ -127,14 +158,79 @@ width: 400px;
 border:2px solid red;
 padding: 20px;
 }
+
+.logs
+{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 40px; */
+  gap: 50px;
+}
+.mongo
+{
+   padding: 20px;
+  margin: 20px;
+}
+.express
+{
+   padding: 20px;
+  margin: 20px;
+}
+.react
+{
+   padding: 20px;
+  margin: 20px;
+}
+.node
+{
+   padding: 20px;
+  margin: 20px;
+}
 .footer
 {
     background-color: yellowgreen;
-    height: 350px;
+    height: 250px;
     margin-top: -30px;
 }
+.contact
+{
+  background-color: lightgoldenrodyellow;
+  height: 700px;
+}
+
+.contactform
+{
+  margin: 50px;
+
+}
+.contactform input
+{
+  margin: 10px;
+}
+.contactform textarea
+{
+  margin: 10px;
+}
+.contactabout h1 
+{
+  
+}
+.ul
+{
+  margin-left: 900px;
+  list-style: none;
+  margin-top: -60px;
+}
+.contactabout h3
+{
+  height: 200px;
+  width: 400px;
+  margin-top: -510px;
+  margin-left: 900px;
+}
 .footerservices {
-    /* background: #222; */
+     background: #ddb9b9;
     color: #352f2f;
     padding: 20px;
     text-align: center;
@@ -174,4 +270,4 @@ padding: 20px;
 .text
 {
   line-height: 30px;
-}
+} 
